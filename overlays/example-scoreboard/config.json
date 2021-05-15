@@ -1,0 +1,33 @@
+{
+  "name": "Scoreboard",
+  "params": {
+    "player-a": {
+      "type": "group",
+      "label": "Player A",
+      "fields": {
+        "name": {
+          "type": "text",
+          "label": "Name"
+        },
+        "score": {
+          "type": "text",
+          "label": "Score"
+        }
+      }
+    },
+    "player-b": {
+      "type": "group",
+      "label": "Player B",
+      "fields": {
+        "name": {
+          "type": "text",
+          "label": "Name"
+        },
+        "score": {
+          "type": "text",
+          "label": "Score"
+        }
+      }
+    }
+  }
+}
