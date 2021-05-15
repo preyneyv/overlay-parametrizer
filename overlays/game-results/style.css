@@ -1,0 +1,90 @@
+* {
+    user-select: none;
+}
+
+body {
+    font-family: 'Futura PT';
+    background-image: url(results-bg.png);
+    background-size: cover;
+    background-position: top left;
+    background-color: #1a1a1a;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body > div {
+    position: absolute;
+}
+
+body.results-2 {
+    background-image: url(results-2.png);
+}
+
+#game-title {
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 100px;
+    letter-spacing: -1.2px;
+    color: #7CAF3C;
+    text-transform: uppercase;
+    top: 68px;
+    left: 79px;
+}
+
+.team-name {
+    font-size: 110px;
+    font-weight: 600;
+    line-height: 120px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    color: #EEEEEE;
+    left: 154px;
+}
+
+#first-place {
+    top: 320px;
+}
+
+#second-place {
+    top: 585px;
+}
+
+#third-place {
+    top: 852px;
+}
+
+.prize {
+    right: 94px;
+    font-size: 140px;
+    line-height: 127.7px;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    color: #7CAF3C;
+    display: flex;
+}
+.prize div {
+    font-weight: 600;
+}
+
+.prize span {
+    font-weight: 400;
+    opacity: .3;
+    transform: translateX(4px);
+}
+
+#first-prize {
+    top: 301px;
+}
+
+#second-prize {
+    top: 567px;
+}
+
+#third-prize {
+    top: 832px;
+}
+
+.results-2 #third-place, .results-2 #third-prize {
+    display: none;
+}

@@ -1,0 +1,73 @@
+* {
+    user-select: none;
+}
+
+body {
+    font-family: 'Futura PT';
+    background-image: url(roster-5.png);
+    background-size: cover;
+    background-position: top left;
+    background-color: #1a1a1a;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body.roster-6 {
+    background-image: url(roster-6.png);
+}
+
+.field {
+    position: absolute;
+}
+
+#game-title {
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: -1px;
+    color: #7CAF3C;
+    text-transform: uppercase;
+    top: 46px;
+    right: 55px;
+}
+
+.team-name {
+    font-weight: 500;
+    color: #eeeeee;
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: 0.8px;
+    transform: rotate(-90deg);
+    transform-origin: bottom;
+    bottom: 49px;
+    width: 0;
+    white-space: nowrap;
+}
+.team-a .team-name { left: 130px; }
+.team-b .team-name { right: 30px; }
+
+.player {
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 100px;
+    color: #EEEEEE;
+}
+
+.team-a .player { left: 216px; }
+.team-b .player { right: 216px; }
+
+.player-1 { top: 292px; }
+.player-2 { top: 448px; }
+.player-3 { top: 604px; }
+.player-4 { top: 760px; }
+.player-5 { top: 916px; }
+.player-6 { display: none; }
+
+.roster-6 .player-1 { top: 284px; }
+.roster-6 .player-2 { top: 412px; }
+.roster-6 .player-3 { top: 540px; }
+.roster-6 .player-4 { top: 668px; }
+.roster-6 .player-5 { top: 796px; }
+.roster-6 .player-6 { top: 924px; display: block; }

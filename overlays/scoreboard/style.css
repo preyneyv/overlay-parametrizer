@@ -1,0 +1,42 @@
+* {
+    user-select: none;
+}
+
+body {
+    font-family: 'Futura PT';
+    background-image: url(scoreboard-bg.png);
+    background-size: cover;
+    background-position: top left;
+    background-color: #1a1a1a;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body > div {
+    position: absolute;
+}
+
+.score {
+  font-weight: bold;
+  font-size: 80px;
+  color: #EEEEEE;
+  bottom: -2px;
+}
+
+#team-a-score { left: 290px; transform: translateX(-50%); }
+#team-b-score { right: 290px; transform: translateX(50%); }
+
+.name {
+    font-weight: 600;
+    color: #EEEEEE;
+    font-size: 54px;
+    text-transform: uppercase;
+    bottom: 20px;
+}
+
+#team-a-name { left: 385px; }
+#team-b-name { right: 385px; }
+
+#team-a-name div {transform-origin: left;}
+#team-b-name div {transform-origin: right;}

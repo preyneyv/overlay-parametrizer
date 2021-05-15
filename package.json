@@ -1,0 +1,23 @@
+{
+  "name": "overlay-parametrizer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pranav Nutalapati <pranavnutalapati@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "sdev": "nodemon index.js --ignore overlays/ --ignore control-panel/",
+    "dev": "concurrently \"yarn sdev\" \"yarn --cwd=control-panel start\""
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "class-names": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
